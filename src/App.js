@@ -1,25 +1,25 @@
+import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar'
-import Home from './pages/home'
-import AboutMe from './pages/aboutme'
-import './styles.css'
-// import Game from './pages/game'
-// import Credits from './pages/credits'
-// import Logs from './pages/logs'
-import {Route, Routes} from 'react-router-dom'
 
 function App() {
-  <>
-    <Navbar />
-      <div className="containers">
-        <Routes> 
-          <Route path="/" element={<Home />} />
-          <Route path ="/aboutme" element={<AboutMe />} />
-          {/* <Route path ="/" element={<Credits />} />
-          <Route path ="/" element={<Logs />} />  */}
-        </Routes>
-      </div>
-  </>
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;
