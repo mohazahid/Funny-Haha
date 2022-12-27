@@ -1,7 +1,7 @@
 export default function Work() {
   return (
     <div className = "WorkPage ">
-      <h1> Work</h1>
+      <h1> Projects</h1>
         <div className = "WorkPage_grid">
             <div className = "WorkPage_grid_item1"> </div>
             <div className = "WorkPage_grid_item2">
