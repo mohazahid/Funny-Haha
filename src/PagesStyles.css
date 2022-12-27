@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.HomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    height: 100%;
+    color: #e2dcdc;
+}
+.AboutPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    height: 100%;
+    color: #e2dcdc;
+    outline: auto;
+}
+.WorkPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    height: 100%;
+    color: #e2dcdc;
+    outline: auto;
+}
+
+.WorkPage_grid {
+    display: grid;
+    grid-template-columns: 15fr 5fr;
+    grid-template-rows: 15fr 7fr;
+    grid-template-areas: "a b " "c d";
+    gap: 0;
+    padding: 1rem;
+    height: 60rem;
+    width: 75%;
+    color: #e2dcdc;
+    outline: auto;
+}
+.WorkPage_grid_item1 {
+    background-color: rgba(158, 46, 46, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.WorkPage_grid_item2 {
+    background-color: rgba(158, 46, 46, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.WorkPage_grid_item3 {
+    background-color: rgba(158, 46, 46, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.WorkPage_grid_item4 {
+    background-color: rgba(158, 46, 46, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.item2 Header {
+    font-size: 3rem;
+    font-weight: bold;
+    display : flex;
+    justify-content: center;
+}
+.WorkPage_grid_item2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+    gap: 1rem;
+    margin: 0;
+    padding : 0;
+    height: auto;
+    width: auto;
+    color: #e2dcdc;
+    /* outline: auto; */
+}
+.WorkPage_grid_item2 ul li { 
+    display: list-item;
+    vertical-align: middle;
+    justify-content: center;
+    background-color: rgb(6, 61, 61);
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e2dcdc;
+    /* outline: auto; */
+}
+.WorkPage_grid_item2 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
