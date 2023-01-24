@@ -1,0 +1,73 @@
+.NameParallax {
+  /* The image used */
+  background-image: url("/public/images/Landscape-Color.jpg");
+  /* Set a specific height */
+  height: 100vh;
+  width: 100vw;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.ContentParallax {
+  background-image: url("/public/images/Strom.jpg");
+  /* Set a specific height */
+  height: 100vh;
+  width: 100vw;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.HomePage {
+  flex-basis: 50%;
+  margin: 0;
+  padding: 0 0 0 0;
+  display: inline-block;
+  scroll-snap-type: y mandatory;
+  border: 1px solid gray;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Nav Content */
+.CustomNav {
+  display: flex;
+  position: fixed;
+  position: fixed;
+  left: 96%;
+  top: 42%;
+  width: fit-content;
+  transform: translate(-50%, 0);
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 1rem;
+  outline: auto;
+  padding: 1rem;
+}
+.CustomNav ul .Icon{
+  cursor: pointer;
+  color: #ffffffcc;
+  transition: all 0.3s ease;
+}
+.CustomNav ul :hover{
+  transition: all 0.3s ease;
+}
+.Icon :hover{
+  color: #6d3737cc;
+  transition: all 0.3s ease;
+}
+.CustomNav ul {
+  list-style: none;
+}

@@ -3,7 +3,6 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 export default function Navbar() {
     return (
         <nav className="nav"> 
-        
         <ul>
             {/* <img src={LogoImg} width={130} height={50} alt="passedImg"/>
                 <CustomLink to= "/game"> Game </CustomLink>*/}

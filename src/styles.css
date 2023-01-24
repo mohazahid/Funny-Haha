@@ -4,18 +4,21 @@
 
 body {
     margin: 0;
-    background-color: rgb(48, 45, 45);
+    padding: 0;
+    background-color: #282c34;
+    scroll-behavior: smooth;
 }
 .container {
-    margin: 1rem;
     text-align: center;
 }
 
 .nav {
     color : #e2dcdc;
+    position: fixed;
     display: flex;
     justify-content: right;
     align-items: stretch;
+    width: 100%;
     gap : 1rem;
     padding-top: 1rem;
     padding : 0 0rem;
